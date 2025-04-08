@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/a834626a-a7e3-40bc-a37a-70ba249531a5)# 💲 Marchese Store
+# 💲 Marchese Store
 
 **Marchese Store** is a modern e-commerce platform built with **Laravel 12** and **Bootstrap 5**. It allows users to browse products, manage a shopping cart, complete secure payments via Stripe, and track their order history.
 
