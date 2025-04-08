@@ -99,19 +99,23 @@ stripe listen --forward-to localhost:8000/webhook/stripe
 ## 📸 Screenshots
 
 ### 🌐 Homepage (Hero Section)
-![Homepage](screenshots/homepage.png)
+<img src="https://github.com/user-attachments/assets/f21e8f55-1ac7-467e-8523-311e3eb813e0" width="300" alt="Marchese Store Screenshot"/>
 
-### 🛒 Product Listing
-![Products](screenshots/products.png)
 
 ### 🛒 Cart View
-![Cart](screenshots/cart.png)
+<img src="https://github.com/user-attachments/assets/5829c74e-8d50-4613-9998-033a1624bab6" width="300" alt="Marchese Store Screenshot"/>
+
+
+### 🛒 Checkout
+<img src="https://github.com/user-attachments/assets/0e3da185-3f38-467d-a90a-db01271645a9" width="300" alt="Marchese Store Screenshot"/>
+
 
 ### 💳 Stripe Checkout
-![Checkout](screenshots/checkout.png)
+<img src="https://github.com/user-attachments/assets/352de953-a314-4d63-9271-791520b7048f" width="300" alt="Marchese Store Screenshot"/>
+
 
 ### 📋 Order History
-![Orders](screenshots/orders.png)
+<img src="https://github.com/user-attachments/assets/5aaf5af8-9236-4c3d-99f5-44648886bbfd" width="300" alt="Marchese Store Screenshot"/>
 
 ---
 
@@ -119,13 +123,6 @@ stripe listen --forward-to localhost:8000/webhook/stripe
 
 This project is open-source and available under the [MIT license](LICENSE).
 
----
-
-## 👋 About
-
-Marchese Store was built as a learning project and showcase of modern Laravel development, including authentication, session cart management, Stripe integration, and clean responsive UI using Bootstrap.
-
-Feel free to fork, contribute or suggest improvements!
 
 ---
 
