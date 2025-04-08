@@ -123,7 +123,3 @@ stripe listen --forward-to localhost:8000/webhook/stripe
 
 This project is open-source and available under the [MIT license](LICENSE).
 
-
----
-
-Made with ❤️ by [your-name].
