@@ -1,4 +1,4 @@
-@extends("default")
+@extends("includes.header")
 @section("title", "Ecom - Carrinho")
 @section("content")
 

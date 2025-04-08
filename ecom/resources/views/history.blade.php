@@ -1,4 +1,4 @@
-@extends('default')
+@extends("includes.header")
 @section('title', 'Ecom - Histórico de Pedidos')
 @section('content')
 

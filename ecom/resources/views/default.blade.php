@@ -55,6 +55,44 @@
             from { opacity: 0; transform: translateY(10px); }
             to { opacity: 1; transform: translateY(0); }
         }
+
+        .hero {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 4rem 0;
+            background-color: #fff;
+            flex-wrap: wrap;
+        }
+        .hero-text {
+            max-width: 500px;
+            padding-right: 2rem;
+        }
+        .hero-text h2 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+        .hero-text p {
+            font-size: 1.1rem;
+            margin-bottom: 2rem;
+            color: #666;
+        }
+        .hero-text a {
+            background-color: #000;
+            color: #fff;
+            text-decoration: none;
+            padding: 1rem 2rem;
+            font-size: 1rem;
+            border-radius: 8px;
+            transition: background-color 0.3s;
+        }
+        .hero-text a:hover {
+            background-color: #333;
+        }
+        .hero img {
+            max-width: 600px;
+            border-radius: 12px;
+        }
     </style>
 
     @yield('style')
@@ -82,6 +120,16 @@
             </div>
         </div>
     </nav>
+
+    {{-- Hero Section --}}
+    <div class="container hero">
+        <div class="hero-text">
+            <h2>Bem-vindo à Marchese Store</h2>
+            <p>Descubra nossa nova coleção com ofertas especiais e produtos exclusivos.</p>
+            <a href="#">Compre Agora</a>
+        </div>
+        <img src="{{ asset('assets/img/hero-woman.png') }}" alt="Cliente feliz">
+    </div>
 
     {{-- Conteúdo principal --}}
     <div class="container py-4">

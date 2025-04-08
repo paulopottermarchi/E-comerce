@@ -1,4 +1,4 @@
-@extends("default")
+@extends("includes.header")
 @section('title', 'Ecom - Checkout')
 @section('content')
     <main class="container" style="max-width: 900px">
